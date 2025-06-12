@@ -1,0 +1,30 @@
+/* Contenedor general tipo libro */
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 20px;
+ color: black;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: justify;
+}
+/*Este titulo esta centrado*/
+h2{
+text-align: center;
+}
+/* Imagen en estilo de recorte dentro de la hoja */
+.pagina img {
+  width: 100%;
+  border-radius: 230px;
+  border-image: 50px;
+  margin-top: 15px;
+}
+img{
+ border-radius: 35px;
+  border-image: 50px; 
+}
